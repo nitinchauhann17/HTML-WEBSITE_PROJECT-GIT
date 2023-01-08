@@ -1,0 +1,174 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(images/Page/black-adam-2021-poster_3840x2160_xtrafondos.com.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.logo img{
+    height: 9vh;
+}
+.logo h1{
+    color: blueviolet;
+    font-size: 25px;
+    margin-top: -45px;
+    margin-left: 60px;
+
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    margin-left: 10vh;
+    text-decoration: none;
+    padding: 0px 20px;
+    color: aliceblue;
+}
+.nav ul li a:hover{
+    color: crimson;
+    font-weight: bolder;
+}
+.user
+{
+    cursor: pointer;
+    color: aqua;
+    margin: 40px;
+    margin-right: 40px;
+}
+.user a{
+    text-decoration: none;
+    color: white;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px 30px;
+    }
+.user a:hover{
+    background-color: black;
+    color: aqua;
+    font-weight: bolder;
+}
+.user i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 14px;
+}
+.heropage{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.inside-heropage{
+    line-height: 2;
+}
+.inside-heropage h1{
+    font-size: 40px;
+}
+.inside-heropage p{
+    font-size: 17px;
+}
+span{
+    color: brown;
+    font-weight: bold;
+}
+.line1{
+    height: 2px;
+    color: brown;
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height: 480px;
+    float: right;
+    border-radius: 10px;
+}
+.btn1{
+    margin-top: 30px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background: teal;
+    border-radius: 20px;
+
+}
+.btn1 a:hover{
+    background: black;
+    color: teal;
+}
+.latest-movies{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 500px;
+}
+.latest-movies h1{
+    font-size: 20px;
+    color: aqua;
+}
+.latest-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.latest-inside img{
+    height: 130px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.latest-inside img:hover{
+    transform: scale(1.2);
+}
+.heading1{
+    color: white;
+    line-height: 1.5;
+}
+.heading1 h4{
+    font-size: 15px;
+}
+.heading1 h6{
+    font-size: 12px;
+}
+.btn2{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 13px;
+    background: turquoise;
+    padding: 7px 7px;
+    color: white;
+    border-radius: 10%;
+}
